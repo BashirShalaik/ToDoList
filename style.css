@@ -35,3 +35,25 @@ form button:hover {
     background: #7f6a56;
     color:white;
 }
+.todo-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.todo-list{
+    list-style: none;
+    min-width: 30%;
+}
+.todo{
+    margin: 0.5rem;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    color: black;
+    background: blanchedalmond;
+    align-items: center;
+    display: flex;
+   
+}
+.todo li{
+    flex: 1;
+}
